@@ -1,0 +1,6 @@
+numpy==1.15.1
+opencv-python==3.4.1.15
+tensorflow-gpu==1.9.0 
+# python -mpip install matplotlib
+
+
