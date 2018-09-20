@@ -5,26 +5,35 @@
 ## Steps
 
 0. Load input image:
+
 ![im](https://github.com/hsneto/sudoku_solver/blob/master/docs/sudoku2.jpg)
 
 1. Pre-processing:
+
 ![im-pp](https://github.com/hsneto/sudoku_solver/blob/master/docs/steps/edges.png)
 
 2. Find sudoku grid:
+
 ![im-gr](https://github.com/hsneto/sudoku_solver/blob/master/docs/steps/edges-2.png)
 
 3. Get perspective view:
+
 ![im-wr](https://github.com/hsneto/sudoku_solver/blob/master/docs/steps/warped.png)
 
 4. Extract sudoku grid and digits:
+
 ![im-gr-di](https://github.com/hsneto/sudoku_solver/blob/master/docs/steps/grid.png)
 
 5. Recognize digits:
+
   * [digits.py](https://github.com/hsneto/sudoku_solver/blob/master/sudoku/digits.py)
-![tensorboard](https://github.com/hsneto/sudoku_solver/blob/master/docs/steps/summary.png)
+  
+![tensorboard](https://github.com/hsneto/sudoku_solver/blob/master/docs/summary.png)
 
 6. Solve sudoku:
+
   * [solver.py](https://github.com/hsneto/sudoku_solver/blob/master/sudoku/solver.py)
+  
 ![im-sv](https://github.com/hsneto/sudoku_solver/blob/master/docs/steps/solved.png)
 
 7. EXTRA: -->[EXAMPLE](https://github.com/hsneto/sudoku_solver/blob/master/example.ipynb)<--
